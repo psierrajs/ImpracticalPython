@@ -7,5 +7,5 @@ for word in word_list:
     if len(word) > 1 and word == word[::-1]:
         pali_list.append(word)
 
-print("\nNumber of palindromes found = {}\n".format(len(pali_list)))
+print(f"\nNumber of palindromes found = {len(pali_list)}\n")
 print(*pali_list, sep='\n')
